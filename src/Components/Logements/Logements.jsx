@@ -9,7 +9,7 @@ function Logements({ searchQuery }) {
 
     const fetchLogements = async () => {
         setIsLoading(true);
-        const response = await fetch(`./../../../db/data.json`);
+        const response = await fetch(`./db/data.json`);
         const data = await response.json();
         if (data) {
             setLogements(data);
