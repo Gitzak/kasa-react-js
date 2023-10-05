@@ -11,7 +11,7 @@ function LogementDetails() {
     useEffect(() => {
         const fetchLogementDetails = async () => {
             try {
-                const response = await fetch(`/db/data.json`);
+                const response = await fetch(`./../../../db/data.json`);
                 const data = await response.json();
 
                 if (data) {
