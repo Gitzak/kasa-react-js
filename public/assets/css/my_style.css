@@ -1,0 +1,133 @@
+.header-home {
+    background-image: url('../images/sidekix-media-McmcjgGk8uM-unsplash.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center 60%;
+}
+
+.header-404 {
+    background-image: url('../images/denise-jans-Ki_BqNrHeW8-unsplash.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center 40%;
+}
+
+.header-comingsoon {
+    background-image: url('../images/henry-co-21HT36zwLn8-unsplash.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center 40%;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.spinner-wrapper {
+    display: flex;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    transition: all .4s ease;
+}
+
+#btn-sign-in a {
+    color: #ffffff;
+    background-color: #FF6060;
+    padding: 0.5rem 1.3rem;
+    border-radius: 20px;
+}
+
+#btn-sign-in a:hover {
+    background-color: #cf3d3d;
+}
+
+.py-50 {
+    padding: 10rem 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .search-box {
+        position: relative;
+        margin-right: 1rem;
+        height: 40px;
+        background: #353535;
+        padding: 2px;
+        border-radius: 8px;
+    }
+
+    .search-box .search-input {
+        position: relative;
+        background: #353535;
+        color: #fff;
+        outline: none;
+        border: none;
+        width: 0px;
+        float: left;
+        font-size: 14px;
+        transition: 0.7s ease;
+        top: 4px;
+        left: 9px;
+        font-family: sans-serif;
+    }
+
+    .search-box .search-btn {
+        position: relative;
+        top: 2.5px;
+        left: -2.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background: #353535;
+        padding: 6px;
+        border-radius: 50%;
+        color: FF6060;
+        transition: 0.4s ease;
+    }
+
+    .search-box:hover .search-input {
+        width: 357px;
+        margin: 2px 4px;
+    }
+
+    .search-input:focus {
+        width: 357px;
+        margin: 2px 4px;
+    }
+
+    .search-box:hover .search-btn {
+        background: #fff;
+    }
+
+    .search-input:focus+.search-btn {
+        background: #fff;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.glass-effect {
+    background: rgb(255 255 255 / 43%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(5px);
+}
